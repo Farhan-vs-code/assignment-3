@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/batch.webp" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>Creatives for you</title>
+</head>
+<body class="bg-[#FAFAFA] dark:bg-gray-900">
+
+     <!-- 
+    - #Header section
+      -->
+
+    <header class="bg-white py-3 dark:bg-gray-900">
+        <nav class="flex justify-between items-center w-[92%]  mx-auto">
+            <div>
+                <img class=" cursor-pointer" src="assets/c4u full logo_2022 1.png" alt="...">
+            </div>
+            <div
+                class="nav-links duration-500 md:static absolute bg-white dark:bg-gray-900 md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 dark:text-white">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="text-[#F44335]" href="#">Upskill</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-6">
+                <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg hidden md:flex cursor-pointer">Register Interest</button>
+                <button id="switch">
+                    <img src="assets/Frame.png" alt="">
+                </button>
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden dark:color"></ion-icon>
+            </div>
+    </header>
+
+     <!-- 
+    - #Hero section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
+        <div class="md:col-span-6 col-span-12">
+            <div class="flex flex-col md:gap-10 gap-5">
+                <h5 class="font-semibold dark:text-white">Discover <span class="text-[#F44335]">-</span> Interact <span class="text-[#F44335]">-</span> Engage </h5>
+                <h1 class="text-7xl font-semibold dark:text-white">
+                    Google <br>
+                    <span class="text-[#F44335]">IT Support </span><br>
+                    Certificate
+                </h1>
+                <p class="dark:text-white">This is your path to a career in IT. In this program, you’ll learn in-skills with no degree or experience required. </p>
+            </div>
+
+            <div class="flex gap-5 md:pt-10 pt-5 dark:text-white">
+                <div>
+                    <span class="text-[#00FF84] font-semibold text-lg">438</span>
+                    <p>Videos </p>
+                </div>
+                <div>
+                    <span class="text-[#00FF84] font-semibold text-lg">151</span>
+                    <p>Readings </p>
+                </div>
+                <div>
+                    <span class="text-[#00FF84] font-semibold text-lg">108</span>
+                    <p>Quizzes </p>
+                </div>
+                <div>
+                    <span class="text-[#00FF84] font-semibold text-lg">14</span>
+                    <p> Exercises </p>
+                </div>
+                <div>
+                    <span class="text-[#00FF84] font-semibold text-lg">4</span>
+                    <p>Assigments  </p>
+                </div>
+            </div>
+
+            <div class="flex gap-5 md:pt-10 pt-5">
+                <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg cursor-pointer">Sign up</button>
+                <button class="bg-white px-5 py-2 rounded-lg  cursor-pointer">Learn more</button>
+            </div>
+            
+        </div>
+
+        <div class="md:col-span-6 col-span-12 flex items-center justify-center">
+            <img src="assets/Banner-image.webp" alt="">
+
+        </div>
+      </section>
+
+        <!-- 
+    - #google section
+      -->
+
+      <section class="bg-white dark:bg-gray-950">
+        <div class="flex items-center justify-between container mx-auto flex-col md:flex-row py-5 md:py-0">
+
+            <div class="dark:text-white md:pr-28 md:border-r md:border-[#D1D3D4] border-hidde">
+                <p>Pave your path to career success by<br> gaining  a  professional  Google <br>certificate with the support of C4U</p>
+            </div>
+            <div>
+                <img src="assets/Google.png" alt="">
+            </div>
+            <div class="dark:stroke-white ">
+                <img src="assets/Work & Pensions.png" alt="">
+            </div>
+            <div>
+                <img src="assets/c4u full logo_2022 1.png" alt="">
+            </div>
+
+        </div>
+      </section>
+
+        <!-- 
+    - #card section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10 rounded-lg">
+        <div class="md:col-span-6 col-span-12 md:ml-8 bg-white p-5 md:p-10 drop-shadow-lg dark:bg-gray-950">
+            <h1 class="font-semibold text-2xl pb-5 border-b border-[#F9CCC7] dark:text-white">What you will learn</h1>
+            <div class="flex gap-5 pt-10 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Gain skills required to succeed in an entry-level IT job</h2>
+            </div>
+            <div class="flex gap-5 pt-10 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2> Learn to perform day-to-day IT support tasks including computer assembly, wireless networking, installing programs, and customer service</h2>
+            </div>
+            <div class="flex gap-5 pt-10 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Learn how to provide end-to-end customer support, ranging from identifying problems to troubleshooting and debugging</h2>
+            </div>
+            <div class="flex gap-5 pt-10 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</h2>
+            </div>
+
+        </div>
+        <div class="md:col-span-6 col-span-12 md:ml-8 bg-white p-5 drop-shadow-lg dark:bg-gray-950">
+            <img src="assets/IT_social 1.png " alt="">
+            <h1 class="font-semibold text-2xl pb-5 pt-5 border-b border-[#F9CCC7] dark:text-white">Skills you will gain </h1>
+
+            <div class="my-5">
+                <button class="tag">Debugging</button>
+                <button class="tag">Customer Service</button>
+                <button class="tag">Customer Support</button>
+                <button class="tag">Domain Name System (DNS)</button>
+            </div>
+            <div class="my5">
+                <button class="tag">Network Model</button>
+                <button class="tag">Linux</button>
+                <button class="tag">Encryption Algorithms and Techniques</button>
+                <button class="tag">Network Protocols</button>
+
+            </div>
+               <div class="my-5">
+                <button class="tag">Ipv4</button>
+                <button class="tag">Troubleshooting</button>
+                <button class="tag">Binary Code</button>
+                <button class="tag">Cloud Computing</button>
+
+               </div>
+
+        </div>
+      </section>
+
+        <!-- 
+    - #card_2 section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10 rounded-lg">
+
+        <div class="md:col-span-6 col-span-12 md:ml-8 bg-white p-5 drop-shadow-lg dark:bg-gray-950">
+            <h1 class="font-semibold text-2xl pb-5 pt-5 border-b border-[#F9CCC7] dark:text-white">Jobs Assocaited with Certificate </h1>
+
+            <div class="flex gap-10 md:gap-36 ">
+
+                <div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>Database administrator</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>Tech support specialist</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>IT specialist</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>Systems analyst</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>Network engineer</h2>
+                    </div>
+
+                </div>
+
+               
+                <div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>Help desk technician</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>IT support spcialist</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>IT technician</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>Computer user specialist</h2>
+                    </div>
+                    <div class="flex items-center gap-3 pt-10 dark:text-white">
+                        <img src="assets/Checkmark.png" alt="" class="rounded-full">
+                        <h2>IT assitant </h2>
+                    </div>
+                </div>
+
+
+                </div>
+
+        </div>
+
+        <div class="md:col-span-6 col-span-12 md:ml-8">
+            <img src="assets/IT Support 1.png" alt="" class="h-[500px]">
+
+        </div>
+
+      </section>
+
+        <!-- 
+    - #Certificate section
+      -->
+       <section class="bg-white dark:bg-gray-950">
+      <section class="grid grid-cols-12 container  mx-auto mb-8 md:px-0 px-4 pt-10 bg-white dark:bg-gray-950">
+        <div class="container  mx-auto md:col-span-9 col-span-12 p-5">
+
+        <h1 class="font-semibold text-5xl pb-10 pt-5 border-b border-[#F9CCC7] dark:text-white">There are 5 Courses in this<br> Professional Certificate </h1>
+
+        <div class="my-10 md:flex gap-10 p-5">
+            <button class="border border-[#2D3142] px-3 py-1 rounded-full dark:text-white text[#2D3142] bg-[#00FF84]">Course  1</button>
+            <button class="border border-[#2D3142] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Course  2</button>
+            <button class="border border-[#2D3142] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Course  3</button>
+            <button class="border border-[#2D3142] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Course  4</button>
+            <button class="border border-[#2D3142] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Course  5</button>
+        </div>
+    </div>
+    <div class="md:col-span-3 col-span-12 ">
+        <img src="assets/batch.webp" alt="">
+    </div>
+
+      </section>
+    </section>
+    
+        <!-- 
+    - #Course 1 card section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto   md:px-0 px-4 pt-10 shadow-sm">
+
+        <div class="md:col-span-3 col-span-12 bg-[#2D3142] p-5">
+            <div class="flex flex-col gap-10">
+                <h6 class="text-[#00FF84]">Course 1 </h6>
+                <h1 class="text-white text-3xl">Technical <br> Support <br> Fundamentals</h1>
+                <div class="flex items-center">
+                    <h6 class="text-[#00FF84] mr-6">132,411 ratings</h6> 
+                    <img src="assets/Stars.png" alt="" class="mt-2">
+                    <h6 class="text-[#FFCB45]">4.8</h6>
+                </div>
+                <div class="flex gap-5">
+                    <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg cursor-pointer">Sign up</button>
+                    <button class="bg-white px-5 py-2 rounded-lg  cursor-pointer">Next  </button>
+                </div>
+               
+               
+                <p class="text-white md:pt-96">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                
+            </div>
+
+        </div>
+        
+
+        <div class="md:col-span-9 col-span-12">
+
+            <div class="bg-white dark:bg-gray-950 flex flex-col gap-5 p-5">
+
+            <h2 class="text-[#F9CCC7]">About this course</h2>
+            <p class="dark:text-white">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <h2 class="text-[#F9CCC7]">What you will learn</h2>
+
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand how the binary system works</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>  Learn how applications are created and how they work under the hood of a computer</h2>
+            </div>
+            <div class="flex gap-2  dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Assemble a computer from scratch</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Choose and install an operating system on a computer</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand what the Internet is, how it works, and the impact it has in the modern world</h2>
+            </div>
+            <h2 class="text-[#F9CCC7]">Skills you will gain</h2>
+
+            <div class="md:flex md:gap-10 gap-2">
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Binary Code</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Troubleshooting</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Customer Support</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Linux</button>
+            </div>
+            <h2 class="text-[#F9CCC7]">Information </h2>
+            <ul class="dark:text-white">
+                <li>Information </li>
+                <li>sShareable Certificate </li>
+                <li>1 100% online </li>
+                <li>BBeginner Level </li>
+                <li>AApprox. 20 hours to complete </li>
+            </ul>
+        </div>
+        
+        </div>
+      </section>
+
+      <div class="container mx-auto">
+        <img src="assets/Connector Vector.png" alt="">
+    </div>
+
+        <!-- 
+    - #Course 2 card section
+      -->
+
+
+    <section class="container grid grid-cols-12 mx-auto   md:px-0 px-4 shadow-sm">
+
+        <div class="md:col-span-3 col-span-12 bg-[#2D3142] p-5">
+            <div class="flex flex-col gap-10">
+                <h6 class="text-[#00FF84]">Course 2 </h6>
+                <h1 class="text-white text-3xl">The Bits and <br> Bytes of <br> Computer <br> Networking
+
+                </h1>
+                <div class="flex items-center">
+                    <h6 class="text-[#00FF84] mr-6">132,411 ratings</h6> 
+                    <img src="assets/Stars.png" alt="" class="mt-2">
+                    <h6 class="text-[#FFCB45]">4.8</h6>
+                </div>
+                <div class="flex gap-5">
+                    <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg cursor-pointer">Sign up</button>
+                    <button class="bg-white px-5 py-2 rounded-lg  cursor-pointer">Next  </button>
+                </div>
+               
+               
+                <p class="text-white md:pt-80">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                
+            </div>
+
+        </div>
+        
+
+        <div class="md:col-span-9 col-span-12">
+
+            <div class="bg-white dark:bg-gray-950 flex flex-col gap-5 p-5">
+
+            <h2 class="text-[#F9CCC7]">About this course</h2>
+            <p class="dark:text-white">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <h2 class="text-[#F9CCC7]">What you will learn</h2>
+
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand how the binary system works</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>  Learn how applications are created and how they work under the hood of a computer</h2>
+            </div>
+            <div class="flex gap-2  dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Assemble a computer from scratch</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Choose and install an operating system on a computer</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand what the Internet is, how it works, and the impact it has in the modern world</h2>
+            </div>
+            <h2 class="text-[#F9CCC7]">Skills you will gain</h2>
+
+            <div class="md:flex md:gap-10 gap-2">
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Binary Code</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Troubleshooting</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Customer Support</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Linux</button>
+            </div>
+            <h2 class="text-[#F9CCC7]">Information </h2>
+            <ul class="dark:text-white">
+                <li>Information </li>
+                <li>sShareable Certificate </li>
+                <li>1 100% online </li>
+                <li>BBeginner Level </li>
+                <li>AApprox. 20 hours to complete </li>
+            </ul>
+        </div>
+        
+        </div>
+      </section>
+
+      <div class="container mx-auto mr-5">
+        <img src="assets/Connector Vector (1).png" alt="">
+    </div>
+
+        <!-- 
+    - #Course 3 card section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto   md:px-0 px-4 shadow-sm">
+
+        <div class="md:col-span-3 col-span-12 bg-[#2D3142] p-5">
+            <div class="flex flex-col gap-10">
+                <h6 class="text-[#00FF84]">Course 3 </h6>
+                <h1 class="text-white text-3xl">Operating<br> Systems and<br>You:Becoming<br>a Power User
+
+                </h1>
+                <div class="flex items-center">
+                    <h6 class="text-[#00FF84] mr-6">132,411 ratings</h6> 
+                    <img src="assets/Stars.png" alt="" class="mt-2">
+                    <h6 class="text-[#FFCB45]">4.8</h6>
+                </div>
+                <div class="flex gap-5">
+                    <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg cursor-pointer">Sign up</button>
+                    <button class="bg-white px-5 py-2 rounded-lg  cursor-pointer">Next  </button>
+                </div>
+               
+               
+                <p class="text-white md:pt-80">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                
+            </div>
+
+        </div>
+        
+
+        <div class="md:col-span-9 col-span-12">
+
+            <div class="bg-white dark:bg-gray-950 flex flex-col gap-5 p-5">
+
+            <h2 class="text-[#F9CCC7]">About this course</h2>
+            <p class="dark:text-white">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <h2 class="text-[#F9CCC7]">What you will learn</h2>
+
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand how the binary system works</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>  Learn how applications are created and how they work under the hood of a computer</h2>
+            </div>
+            <div class="flex gap-2  dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Assemble a computer from scratch</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Choose and install an operating system on a computer</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand what the Internet is, how it works, and the impact it has in the modern world</h2>
+            </div>
+            <h2 class="text-[#F9CCC7]">Skills you will gain</h2>
+
+            <div class="md:flex md:gap-10 gap-2">
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Binary Code</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Troubleshooting</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Customer Support</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Linux</button>
+            </div>
+            <h2 class="text-[#F9CCC7]">Information </h2>
+            <ul class="dark:text-white">
+                <li>Information </li>
+                <li>sShareable Certificate </li>
+                <li>1 100% online </li>
+                <li>BBeginner Level </li>
+                <li>AApprox. 20 hours to complete </li>
+            </ul>
+        </div>
+        
+        </div>
+      </section>
+
+      <div class="container mx-auto mr-5">
+        <img src="assets/Connector Vector (2).png" alt="">
+    </div>
+
+        <!-- 
+    - #Course 4 card section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto   md:px-0 px-4 shadow-sm">
+
+        <div class="md:col-span-3 col-span-12 bg-[#2D3142] p-5">
+            <div class="flex flex-col gap-10">
+                <h6 class="text-[#00FF84]">Course 4 </h6>
+                <h1 class="text-white text-3xl">System<br> Administration<br> and IT<br> Infrastructure Services
+
+                </h1>
+                <div class="flex items-center">
+                    <h6 class="text-[#00FF84] mr-6">132,411 ratings</h6> 
+                    <img src="assets/Stars.png" alt="" class="mt-2">
+                    <h6 class="text-[#FFCB45]">4.8</h6>
+                </div>
+                <div class="flex gap-5">
+                    <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg cursor-pointer">Sign up</button>
+                    <button class="bg-white px-5 py-2 rounded-lg  cursor-pointer">Next  </button>
+                </div>
+               
+               
+                <p class="text-white md:pt-80">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                
+            </div>
+
+        </div>
+        
+
+        <div class="md:col-span-9 col-span-12">
+
+            <div class="bg-white dark:bg-gray-950 flex flex-col gap-5 p-5">
+
+            <h2 class="text-[#F9CCC7]">About this course</h2>
+            <p class="dark:text-white">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <h2 class="text-[#F9CCC7]">What you will learn</h2>
+
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand how the binary system works</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>  Learn how applications are created and how they work under the hood of a computer</h2>
+            </div>
+            <div class="flex gap-2  dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Assemble a computer from scratch</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Choose and install an operating system on a computer</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand what the Internet is, how it works, and the impact it has in the modern world</h2>
+            </div>
+            <h2 class="text-[#F9CCC7]">Skills you will gain</h2>
+
+            <div class="md:flex md:gap-10 gap-2">
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Binary Code</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Troubleshooting</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Customer Support</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Linux</button>
+            </div>
+            <h2 class="text-[#F9CCC7]">Information </h2>
+            <ul class="dark:text-white">
+                <li>Information </li>
+                <li>sShareable Certificate </li>
+                <li>1 100% online </li>
+                <li>BBeginner Level </li>
+                <li>AApprox. 20 hours to complete </li>
+            </ul>
+        </div>
+        
+        </div>
+      </section>
+
+      
+      <div class="container mx-auto mr-5">
+        <img src="assets/Connector Vector (3).png" alt="">
+    </div>
+
+        <!-- 
+    - #Course 5 card section
+      -->
+
+      <section class="container grid grid-cols-12 mx-auto mb-8  md:px-0 px-4">
+
+        <div class="md:col-span-3 col-span-12 bg-[#2D3142] p-5">
+            <div class="flex flex-col gap-10">
+                <h6 class="text-[#00FF84]">Course 5 </h6>
+                <h1 class="text-white text-3xl">IT Security:<br> Defense<br> against the<br> digital dark arts
+
+                </h1>
+                <div class="flex items-center">
+                    <h6 class="text-[#00FF84] mr-6">132,411 ratings</h6> 
+                    <img src="assets/Stars.png" alt="" class="mt-2">
+                    <h6 class="text-[#FFCB45]">4.8</h6>
+                </div>
+                <div class="flex gap-5">
+                    <button class="bg-[#F44335] text-white px-5 py-2 rounded-lg cursor-pointer">Sign up</button>
+                    <button class="bg-white px-5 py-2 rounded-lg  cursor-pointer">Next  </button>
+                </div>
+               
+               
+                <p class="text-white md:pt-80">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+                
+            </div>
+
+        </div>
+        
+
+        <div class="md:col-span-9 col-span-12">
+
+            <div class="bg-white dark:bg-gray-950 flex flex-col gap-5 p-5">
+
+            <h2 class="text-[#F9CCC7]">About this course</h2>
+            <p class="dark:text-white">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <h2 class="text-[#F9CCC7]">What you will learn</h2>
+
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand how the binary system works</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>  Learn how applications are created and how they work under the hood of a computer</h2>
+            </div>
+            <div class="flex gap-2  dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Utilize common problem-solving methodologies and soft skills in an Information Technology setting</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Assemble a computer from scratch</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Choose and install an operating system on a computer</h2>
+            </div>
+            <div class="flex gap-2 dark:text-white items-center">
+                <img src="assets/Icon Check.png" alt="" class="bg-[#F9CCC7] rounded-full p-3">
+                <h2>Understand what the Internet is, how it works, and the impact it has in the modern world</h2>
+            </div>
+            <h2 class="text-[#F9CCC7]">Skills you will gain</h2>
+
+            <div class="md:flex md:gap-10 gap-2">
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Binary Code</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Troubleshooting</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Customer Support</button>
+                <button class="border border-[#F44335] px-3 py-1 rounded-full dark:text-white text[#2D3142]">Linux</button>
+            </div>
+            <h2 class="text-[#F9CCC7]">Information </h2>
+            <ul class="dark:text-white">
+                <li>Information </li>
+                <li>sShareable Certificate </li>
+                <li>1 100% online </li>
+                <li>BBeginner Level </li>
+                <li>AApprox. 20 hours to complete </li>
+            </ul>
+        </div>
+        
+        </div>
+      </section>
+
+        <!-- 
+    - #card_3 section
+      -->
+
+      <section class="bg2 object-cover bg-cover w-full h-[500px] bg-no-repeat flex items-center mb-8">
+
+        <div class="container  bg-white dark:bg-gray-950 md:w-[500px] w-[410px] md:h-80 p-10 rounded-xl md:ml-32 ml-2">
+            <img src="assets/“.png" alt="" >
+            <h2 class="mt-5 mb-5 dark:text-white">I worked in retail and needed to make a<br> change. The certificate is really<br> designed for you to go at your own<br> pace. This is something that anybody<br> can do</h2>
+            <h2 class="text-[#F9CCC7]">Daniel, IT Support Specialist at Central Community<br> College and Google IT Support Certificate graduate</h2>
+        </div>
+
+      </section>
+
+        <!-- 
+    - #footer section
+      -->
+
+      <footer>
+        <div class="flex md:flex-row flex-col md:justify-evenly gap-3  ml-7 dark:text-white">
+
+            <div class="flex flex-col gap-1">
+                <img src="assets/c4u full logo_2022 1.png" alt="" class="w-fit">
+                <a href="#">Level39</a>
+                <a href="#">One canada square</a>
+                <a href="#">Canary Wharf, </a>
+                <a href="#">London</a>
+                <a href="#">E145AB</a>
+            </div>
+            <div class="flex flex-col gap-1">
+                <h1 class="font-semibold">Home</h1>
+                <a href="#">Collaborations</a>
+                <a href="#">Statistics</a>
+                <a href="#">How It Works </a>
+                <a href="#">Testimonials</a>
+            </div>
+            <div class="flex flex-col gap-1">
+                <h1 class="font-semibold">About Us</h1>
+                <a href="#">Who We Are</a>
+                <a href="#">Mission statement </a>
+                <a href="#">Our Vision  </a>
+                <a href="#"> The  Team  </a>
+            </div>
+            <div class="flex flex-col gap-1">
+                <h1 class="font-semibold">Upskill</h1>
+                <a href="#">It Support </a>
+                <a href="#">Project Managment </a>
+                <a href="#">Data Analysts </a>
+                <a href="#">Ux Design </a>
+            </div>
+            <div class="flex flex-col gap-1">
+                <h1 class="font-semibold">Contact Us </h1>
+                <a href="#">Your message </a>
+                <a href="#">Email </a>
+                <a href="#">Phone number  </a>
+                <a href="#">Linkedin </a>
+            </div>
+           
+        </div>
+        <div class="border boder-[#20484F1A] "></div>
+        <p class="dark:text-white p-5 flex justify-center">Copyright 2022 Creatives For You LTD</p>
+      </footer>
+
+    
+
+     
+
+    <script>
+        // dark
+        const htmlTag = document.getElementById("htmlTag");
+        document.getElementById("switch").addEventListener("click", function () {
+        htmlTag.classList.toggle("dark");
+        });
+        // menu 
+        const navLinks = document.querySelector('.nav-links')
+        function onToggleMenu(e){
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+            navLinks.classList.toggle('top-[9%]')
+        }
+    </script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>

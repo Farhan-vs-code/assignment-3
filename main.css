@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.color{
+    color: white;
+}
+.bg2{
+    background-image: url(assets/brooke-cagle-g1Kr4Ozfoac-unsplash\ 2.png);
+}
+
+@layer utilities{
+    .tag{
+        @apply  text-xs md:text-sm  px-1.5 py-0.5 rounded-full cursor-pointer border border-[#F44335] dark:text-white;
+    }
+}
